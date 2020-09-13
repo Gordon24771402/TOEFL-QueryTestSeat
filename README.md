@@ -10,6 +10,5 @@ dataJSON = <TestSeatQueryVo><status>true</status><testDate>2020年10月10日 星
 ```
 # Search Essential Info (Guangzhou, 2020-10-10)
 ```
-import re
 seatStatus = re.findall(r'<seatStatus>(\d+)</seatStatus>', dataJSON)
 ```
