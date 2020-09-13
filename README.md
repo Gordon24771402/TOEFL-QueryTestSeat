@@ -10,5 +10,6 @@ dataJSON = '<TestSeatQueryVo><status>true</status><testDate>2020年10月10日 �
 ```
 # Search Essential Info (GUANGZHOU, 2020-10-10)
 ```
+status = re.findall(r'<status>(\D+)</status>', dataJSON)
 seatStatus = re.findall(r'<seatStatus>(\d+)</seatStatus>', dataJSON)
 ```
